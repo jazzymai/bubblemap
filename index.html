@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8e7f4700cfd41a2ad91ba3b660c0f83d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8e7f4700cfd41a2ad91ba3b660c0f83d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8e7f4700cfd41a2ad91ba3b660c0f83d = L.map(
+                "map_8e7f4700cfd41a2ad91ba3b660c0f83d",
+                {
+                    center: [46.8, 8.3],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1f874af284accd7665f9b116037f7086 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1f874af284accd7665f9b116037f7086.addTo(map_8e7f4700cfd41a2ad91ba3b660c0f83d);
+        
+    
+            var circle_marker_68d2f8dcee27fdb417801568ed2b9b7b = L.circleMarker(
+                [47.377847, 8.540502],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.58, "stroke": true, "weight": 3}
+            ).addTo(map_8e7f4700cfd41a2ad91ba3b660c0f83d);
+        
+    
+        var popup_c9fb6f7df15783200f63fc9c565d1fbd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_77bbd9ad3b85569c060a7479b1dd4c37 = $(`<div id="html_77bbd9ad3b85569c060a7479b1dd4c37" style="width: 100.0%; height: 100.0%;">Zürich (Zürich HB): 929 Abfahrten</div>`)[0];
+                popup_c9fb6f7df15783200f63fc9c565d1fbd.setContent(html_77bbd9ad3b85569c060a7479b1dd4c37);
+            
+        
+
+        circle_marker_68d2f8dcee27fdb417801568ed2b9b7b.bindPopup(popup_c9fb6f7df15783200f63fc9c565d1fbd)
+        ;
+
+        
+    
+    
+            var circle_marker_6c3671d57d5e2ec62dc992977d01a029 = L.circleMarker(
+                [46.948832, 7.439136],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.7, "stroke": true, "weight": 3}
+            ).addTo(map_8e7f4700cfd41a2ad91ba3b660c0f83d);
+        
+    
+        var popup_c90b2103549fefd2879a10eb2728c4e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6fa475ea56aae967f73b1dfc10da3f82 = $(`<div id="html_6fa475ea56aae967f73b1dfc10da3f82" style="width: 100.0%; height: 100.0%;">Bern (Bern): 485 Abfahrten</div>`)[0];
+                popup_c90b2103549fefd2879a10eb2728c4e5.setContent(html_6fa475ea56aae967f73b1dfc10da3f82);
+            
+        
+
+        circle_marker_6c3671d57d5e2ec62dc992977d01a029.bindPopup(popup_c90b2103549fefd2879a10eb2728c4e5)
+        ;
+
+        
+    
+    
+            var circle_marker_51543557d12894cbd18c99af820f968d = L.circleMarker(
+                [47.547412, 7.589577],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.4, "stroke": true, "weight": 3}
+            ).addTo(map_8e7f4700cfd41a2ad91ba3b660c0f83d);
+        
+    
+        var popup_657dce591c1904131f60257679aac50a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff3a535e53b6cb075879e5eee866eb2b = $(`<div id="html_ff3a535e53b6cb075879e5eee866eb2b" style="width: 100.0%; height: 100.0%;">Basel (Basel SBB): 270 Abfahrten</div>`)[0];
+                popup_657dce591c1904131f60257679aac50a.setContent(html_ff3a535e53b6cb075879e5eee866eb2b);
+            
+        
+
+        circle_marker_51543557d12894cbd18c99af820f968d.bindPopup(popup_657dce591c1904131f60257679aac50a)
+        ;
+
+        
+    
+    
+            var circle_marker_ae9eb267b6fa45fe545508d2b16b75c6 = L.circleMarker(
+                [47.500331, 8.723822],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.94, "stroke": true, "weight": 3}
+            ).addTo(map_8e7f4700cfd41a2ad91ba3b660c0f83d);
+        
+    
+        var popup_1b4cdd1aed8c15ee9f1e20e5ec07e694 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e35ccf3725fdd200279797232977644c = $(`<div id="html_e35ccf3725fdd200279797232977644c" style="width: 100.0%; height: 100.0%;">Winterthur (Winterthur): 547 Abfahrten</div>`)[0];
+                popup_1b4cdd1aed8c15ee9f1e20e5ec07e694.setContent(html_e35ccf3725fdd200279797232977644c);
+            
+        
+
+        circle_marker_ae9eb267b6fa45fe545508d2b16b75c6.bindPopup(popup_1b4cdd1aed8c15ee9f1e20e5ec07e694)
+        ;
+
+        
+    
+    
+            var circle_marker_1dd58994b5cd9cd904b51d09b74efd8d = L.circleMarker(
+                [47.050174, 8.310185],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.88, "stroke": true, "weight": 3}
+            ).addTo(map_8e7f4700cfd41a2ad91ba3b660c0f83d);
+        
+    
+        var popup_d7e30ff97545251cd186b339873b18d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1eb1855e9024358404e3ed9e9802274 = $(`<div id="html_c1eb1855e9024358404e3ed9e9802274" style="width: 100.0%; height: 100.0%;">Luzern (Luzern): 294 Abfahrten</div>`)[0];
+                popup_d7e30ff97545251cd186b339873b18d5.setContent(html_c1eb1855e9024358404e3ed9e9802274);
+            
+        
+
+        circle_marker_1dd58994b5cd9cd904b51d09b74efd8d.bindPopup(popup_d7e30ff97545251cd186b339873b18d5)
+        ;
+
+        
+    
+    
+            var circle_marker_09f6cef57cc99061038aa9f4167d473b = L.circleMarker(
+                [46.516795, 6.629087],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.66, "stroke": true, "weight": 3}
+            ).addTo(map_8e7f4700cfd41a2ad91ba3b660c0f83d);
+        
+    
+        var popup_bdd721bc8f57da6e830eb1eaf27903da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4977c24ce399a012cfa1f4481671c61 = $(`<div id="html_b4977c24ce399a012cfa1f4481671c61" style="width: 100.0%; height: 100.0%;">Lausanne (Lausanne): 383 Abfahrten</div>`)[0];
+                popup_bdd721bc8f57da6e830eb1eaf27903da.setContent(html_b4977c24ce399a012cfa1f4481671c61);
+            
+        
+
+        circle_marker_09f6cef57cc99061038aa9f4167d473b.bindPopup(popup_bdd721bc8f57da6e830eb1eaf27903da)
+        ;
+
+        
+    
+    
+            var circle_marker_84bf72d7141e1517894316cc4b27d788 = L.circleMarker(
+                [46.005494, 8.946993],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.9, "stroke": true, "weight": 3}
+            ).addTo(map_8e7f4700cfd41a2ad91ba3b660c0f83d);
+        
+    
+        var popup_32fdb00f24203e1d42aa8307a1e12e8d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c26061500ed84a3e7613fde0c2ce610 = $(`<div id="html_1c26061500ed84a3e7613fde0c2ce610" style="width: 100.0%; height: 100.0%;">Lugano (Lugano): 195 Abfahrten</div>`)[0];
+                popup_32fdb00f24203e1d42aa8307a1e12e8d.setContent(html_1c26061500ed84a3e7613fde0c2ce610);
+            
+        
+
+        circle_marker_84bf72d7141e1517894316cc4b27d788.bindPopup(popup_32fdb00f24203e1d42aa8307a1e12e8d)
+        ;
+
+        
+    
+    
+            var circle_marker_b990909854f6815040a4f544825fdd04 = L.circleMarker(
+                [47.351936, 7.907707],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_8e7f4700cfd41a2ad91ba3b660c0f83d);
+        
+    
+        var popup_c3c1b41f68f8bb77f4e361fa90fdd316 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_937974f4deed8558ffbc9e4cb079334e = $(`<div id="html_937974f4deed8558ffbc9e4cb079334e" style="width: 100.0%; height: 100.0%;">Olten (Olten): 400 Abfahrten</div>`)[0];
+                popup_c3c1b41f68f8bb77f4e361fa90fdd316.setContent(html_937974f4deed8558ffbc9e4cb079334e);
+            
+        
+
+        circle_marker_b990909854f6815040a4f544825fdd04.bindPopup(popup_c3c1b41f68f8bb77f4e361fa90fdd316)
+        ;
+
+        
+    
+    
+            var circle_marker_43374d35a775ca431d2fb203a26e6996 = L.circleMarker(
+                [46.210228, 6.142435],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.74, "stroke": true, "weight": 3}
+            ).addTo(map_8e7f4700cfd41a2ad91ba3b660c0f83d);
+        
+    
+        var popup_fb1ae7005d739020ce26e1ae7bd46cea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3d05f0f505016c5ba1a0ef98ede0f43 = $(`<div id="html_c3d05f0f505016c5ba1a0ef98ede0f43" style="width: 100.0%; height: 100.0%;">Genf (Genève): 387 Abfahrten</div>`)[0];
+                popup_fb1ae7005d739020ce26e1ae7bd46cea.setContent(html_c3d05f0f505016c5ba1a0ef98ede0f43);
+            
+        
+
+        circle_marker_43374d35a775ca431d2fb203a26e6996.bindPopup(popup_fb1ae7005d739020ce26e1ae7bd46cea)
+        ;
+
+        
+    
+</script>
+</html>
